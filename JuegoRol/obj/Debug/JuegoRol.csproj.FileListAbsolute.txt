@@ -1,0 +1,12 @@
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\bin\Debug\JuegoRol.exe.config
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.csprojResolveAssemblyReference.cache
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.CrearPlayer.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.Properties.Resources.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.csproj.GenerateResource.Cache
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\bin\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\bin\Debug\JuegoRol.pdb
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debug\JuegoRol.pdb
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.exe.config
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.pdb
