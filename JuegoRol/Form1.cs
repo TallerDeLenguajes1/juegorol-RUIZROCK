@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JuegoRol.Modelos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace JuegoRol
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            List<string> jug = new List<string>();
+            CrearPlayer AbrirJuego = new CrearPlayer(jug);
+            AbrirJuego.Show();
         }
     }
 }

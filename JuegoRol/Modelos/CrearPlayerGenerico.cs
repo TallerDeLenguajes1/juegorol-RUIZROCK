@@ -1,9 +1,6 @@
 ﻿using JuegoRol.Modelos;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JuegoRol
 {
@@ -67,19 +64,18 @@ namespace JuegoRol
         }
 
                         //nombre
-        private static string generarNombre(List<string> nombrePokemones)
+        private static string generarNombre(List<string> nombrepersonaje)
         {
-            int numNombre = aleatorio.Next(20);
-            return nombrePokemones[numNombre];
+            string[] nombres = { "Carlos", "Maria", "Pedro", "Juan", "Lucia" };
+            int numNombre = aleatorio.Next(5);
+            return nombres[numNombre];
         }
 
                         //apodo
         private static string generarApodo()
         {
             string[] apodos = { "Pepillo", "Cepillin","riñon fijo", "sasha", "claudia", "vrayan", "pachano" };
-
-            int numApodo = aleatorio.Next(5);
-
+            int numApodo = aleatorio.Next(7);
             return apodos[numApodo];
         }
 

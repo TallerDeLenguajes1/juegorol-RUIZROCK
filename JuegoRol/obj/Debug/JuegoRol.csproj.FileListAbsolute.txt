@@ -10,3 +10,30 @@ C:\Users\SERGIO\Desktop\taller 1\Repositorio\JuegoRol\JuegoRol\JuegoRol\obj\Debu
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.exe.config
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.exe
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.pdb
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\bin\Debug\JuegoRol.exe.config
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.exe
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.pdb
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\bin\Debug\JuegoRol.exe
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\bin\Debug\JuegoRol.pdb
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.csprojResolveAssemblyReference.cache
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.CrearPlayer.resources
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.Form1.resources
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.Properties.Resources.resources
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.csproj.GenerateResource.Cache
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.Ventanas.IniciarPartida.resources
+C:\Users\sergi\Desktop\REPOSITORIO\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.ventanaPersonaje.resources
+C:\Users\SERGIO\Desktop\taller 1 - copia\juegorol-RUIZROCK2\JuegoRol\bin\Debug\JuegoRol.exe.config
+C:\Users\SERGIO\Desktop\taller 1 - copia\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\taller 1 - copia\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.pdb
+C:\Users\SERGIO\Desktop\juegorol-RUIZROCK2\JuegoRol\bin\Debug\JuegoRol.exe.config
+C:\Users\SERGIO\Desktop\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\juegorol-RUIZROCK2\JuegoRol\obj\Debug\JuegoRol.pdb
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.csprojResolveAssemblyReference.cache
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.CrearPlayer.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.Form1.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.Properties.Resources.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.Ventanas.IniciarPartida.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.ventanaPersonaje.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.csproj.GenerateResource.Cache
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.exe
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.pdb

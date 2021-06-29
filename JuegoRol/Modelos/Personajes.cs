@@ -172,8 +172,8 @@ namespace JuegoRol.Modelos
 
         public float Ataque()
         {
-            Random efectividadDisparo = new Random();
-            return Poder() * efectividadDisparo.Next(1, 101);
+            Random efectividadgolpe = new Random();
+            return Poder() * efectividadgolpe.Next(35);
         }
 
         public int Defensa()
