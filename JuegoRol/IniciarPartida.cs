@@ -130,7 +130,7 @@ namespace JuegoRol.Ventanas
             {
                 Random num = new Random();
                 participante.Salud = 100;
-                int catSeleccionada = num.Next(10);
+                int catSeleccionada = num.Next(4);
 
                 switch (catSeleccionada)
                 {
@@ -146,7 +146,7 @@ namespace JuegoRol.Ventanas
                     case 3:
                         participante.Nivel += 1;
                         break;
-                    default:
+                    case 4:
                         participante.Armadura += num.Next(1);
                         break;
                 }

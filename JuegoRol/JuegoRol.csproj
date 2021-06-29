@@ -89,6 +89,9 @@
     <Compile Include="Ventanas\ventanaPersonaje.Designer.cs">
       <DependentUpon>ventanaPersonaje.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="IniciarPartida.aa.resx">
+      <DependentUpon>IniciarPartida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventanas\CrearPlayer.resx">
       <DependentUpon>CrearPlayer.cs</DependentUpon>
     </EmbeddedResource>

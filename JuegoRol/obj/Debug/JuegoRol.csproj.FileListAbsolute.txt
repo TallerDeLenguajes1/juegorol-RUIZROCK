@@ -37,3 +37,6 @@ C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debu
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.csproj.GenerateResource.Cache
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.exe
 C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\JuegoRol.pdb
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\bin\Debug\aa\JuegoRol.resources.dll
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\JuegoRol.Ventanas.IniciarPartida.aa.resources
+C:\Users\SERGIO\Desktop\taller 1\Repositorio\juegorol-RUIZROCK\JuegoRol\obj\Debug\aa\JuegoRol.resources.dll
