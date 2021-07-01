@@ -1,20 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-/*
-using System.Text.Json;
-using System.Text.Json.Serialization;
-*/
+
 namespace JuegoRol
 {
     static class Program
     {
-        
-            /// <summary>
-            /// The main entry point for the application.
-            /// </summary>
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
         [STAThread]
         static void Main()
         {
@@ -23,7 +19,5 @@ namespace JuegoRol
             List<string> namePersonajes = new List<string>();
             Application.Run(new CrearPlayer(namePersonajes));
         }
-
     }
 }
-

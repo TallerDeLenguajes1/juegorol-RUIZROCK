@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace JuegoRol.Modelos
+namespace JuegoRol
 {
     public enum tipo
-        {
-            ogro, duende, burro, nieri,ehamigo
-        };
+    {
+        ogro, duende, burro, nieri, ehamigo
+    };
 
     public class Personajes
     {
-                     //datos y caracteristicas
+        //datos y caracteristicas
         private tipo personaje;
         private string nombre;
         private string apodo;
@@ -27,7 +30,7 @@ namespace JuegoRol.Modelos
         /*****************************************************************************************/
         /*****************************************************************************************/
 
-                    //Metodos get/set de cada variable
+        //Metodos get/set de cada variable
         internal tipo Personaje
         {
             get
@@ -164,7 +167,7 @@ namespace JuegoRol.Modelos
         /*****************************************************************************************/
         /*****************************************************************************************/
         /*****************************************************************************************/
-        
+
         //acciones de los personajes
         public int Poder()
         {
@@ -187,7 +190,7 @@ namespace JuegoRol.Modelos
             Salud = Salud - (int)ataqueEnemigo;
             return Salud;
         }
-        
-        
+
+
     }
 }

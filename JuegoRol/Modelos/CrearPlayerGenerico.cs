@@ -1,6 +1,8 @@
-﻿using JuegoRol.Modelos;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace JuegoRol
 {
@@ -14,12 +16,12 @@ namespace JuegoRol
 
         //metodos para la Obtención de los Datos
 
-        
 
-                        //nombre
+
+        //nombre
         public static string generarNombre()
         {
-            string[] nombres = { "Carlos", "Maria", "Pedro", "Juan", "Lucia","pancracia","eusebia","dolores","mirta","irma","camilo","mario","alfredo" };
+            string[] nombres = { "Carlos", "Maria", "Pedro", "Juan", "Lucia", "Pancracia", "Eusebia", "Dolores", "Mirta", "Irma", "Camilo", "Mario", "Alfredo" };
             int numNombre = aleatorio.Next(12);
             return nombres[numNombre];
         }
@@ -27,7 +29,7 @@ namespace JuegoRol
         //apodo
         public static string generarApodo()
         {
-            string[] apodos = { "Pepillo", "Cepillin","riñon fijo", "sasha", "claudia", "vrayan", "pachano" };
+            string[] apodos = { "Pepillo", "Cepillin", "riñon fijo", "sasha", "claudia", "vrayan", "pachano" };
             int numApodo = aleatorio.Next(7);
             return apodos[numApodo];
         }
@@ -41,7 +43,7 @@ namespace JuegoRol
         }
 
 
-                            //edad
+        //edad
         public static int generadorEdad(DateTime fechaNacimiento)
         {
             return DateTime.Today.Year - fechaNacimiento.Year;
@@ -50,7 +52,7 @@ namespace JuegoRol
         /*****************************************************************************************/
         /*****************************************************************************************/
         /*****************************************************************************************/
-        
+
         //metodos para la Obtencion de las Caracteristicas
 
         //velocidad
@@ -59,19 +61,19 @@ namespace JuegoRol
             return aleatorio.Next(1, 11);
         }
 
-                        //destreza
+        //destreza
         public static int genererDestreza()
         {
             return aleatorio.Next(1, 6);
         }
 
-                        //fuerza
+        //fuerza
         public static int genererFuerza()
         {
             return aleatorio.Next(1, 11);
         }
 
-                        //armadura
+        //armadura
         public static int genererArmadura()
         {
             return aleatorio.Next(1, 11);
