@@ -14,13 +14,10 @@ namespace JuegoRol
     {
         //instanciar lista de personajes y lista de nombres de los perrsonajes
         List<Personajes> personajesDelJuego = new List<Personajes>();
-        int cantidadJugadores = 7;
-        List<string> nombreDePersonajes;
 
-        public CrearPlayer(List<string> listaDeJugadores)
+        public CrearPlayer()
         {
             InitializeComponent();
-            this.nombreDePersonajes = listaDeJugadores;
         }
 
         private void setearFechaDeNacimiento()
@@ -55,7 +52,7 @@ namespace JuegoRol
 
         private void habilitarBotonCrearPersonaje()
         {
-            btn_crear_personaje_nuevo.Enabled = camposLlenos();
+                btn_crear_personaje_nuevo.Enabled = camposLlenos();
         }
 
         private bool camposLlenos()
@@ -92,6 +89,7 @@ namespace JuegoRol
             NuevoPLAYER.Destreza = CrearPlayerGenerico.genererDestreza();
             NuevoPLAYER.Fuerza = CrearPlayerGenerico.genererFuerza();
             NuevoPLAYER.Armadura = CrearPlayerGenerico.genererArmadura();
+
         }
 
         //Mostrar personajes y Abrir ventana personaje
@@ -155,6 +153,5 @@ namespace JuegoRol
             btRellenar(NuevoSLAYER);
         }
 
-        
     }
 }

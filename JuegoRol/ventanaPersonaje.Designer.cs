@@ -33,33 +33,37 @@ namespace JuegoRol
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btn_guardar_lista_de_jugadores = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lbl_tipo = new System.Windows.Forms.Label();
-            this.lbl_nombre = new System.Windows.Forms.Label();
-            this.lbl_apodo = new System.Windows.Forms.Label();
-            this.lbl_fecnac = new System.Windows.Forms.Label();
-            this.lbl_edad = new System.Windows.Forms.Label();
             this.lbl_salud = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_edad = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lbl_fecnac = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_apodo = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_tipo = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lbl_armadura = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.lbl_nivel = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.lbl_fuerza = new System.Windows.Forms.Label();
-            this.lbl_destreza = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.lbl_velocidad = new System.Windows.Forms.Label();
+            this.lbl_destreza = new System.Windows.Forms.Label();
             this.btn_jugar = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
+            this.personaje_img = new System.Windows.Forms.PictureBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.Lista_mapa = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.personaje_img)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,6 +115,108 @@ namespace JuegoRol
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos:";
             // 
+            // lbl_salud
+            // 
+            this.lbl_salud.AutoSize = true;
+            this.lbl_salud.Location = new System.Drawing.Point(89, 154);
+            this.lbl_salud.Name = "lbl_salud";
+            this.lbl_salud.Size = new System.Drawing.Size(0, 13);
+            this.lbl_salud.TabIndex = 12;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 154);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Salud";
+            // 
+            // lbl_edad
+            // 
+            this.lbl_edad.AutoSize = true;
+            this.lbl_edad.Location = new System.Drawing.Point(89, 129);
+            this.lbl_edad.Name = "lbl_edad";
+            this.lbl_edad.Size = new System.Drawing.Size(0, 13);
+            this.lbl_edad.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 129);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(32, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Edad";
+            // 
+            // lbl_fecnac
+            // 
+            this.lbl_fecnac.AutoSize = true;
+            this.lbl_fecnac.Location = new System.Drawing.Point(89, 102);
+            this.lbl_fecnac.Name = "lbl_fecnac";
+            this.lbl_fecnac.Size = new System.Drawing.Size(0, 13);
+            this.lbl_fecnac.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Fec. de nac.";
+            // 
+            // lbl_apodo
+            // 
+            this.lbl_apodo.AutoSize = true;
+            this.lbl_apodo.Location = new System.Drawing.Point(89, 78);
+            this.lbl_apodo.Name = "lbl_apodo";
+            this.lbl_apodo.Size = new System.Drawing.Size(0, 13);
+            this.lbl_apodo.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Apodo";
+            // 
+            // lbl_nombre
+            // 
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Location = new System.Drawing.Point(89, 53);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(0, 13);
+            this.lbl_nombre.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Nombre";
+            // 
+            // lbl_tipo
+            // 
+            this.lbl_tipo.AutoSize = true;
+            this.lbl_tipo.Location = new System.Drawing.Point(89, 27);
+            this.lbl_tipo.Name = "lbl_tipo";
+            this.lbl_tipo.Size = new System.Drawing.Size(0, 13);
+            this.lbl_tipo.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Tipo";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lbl_armadura);
@@ -130,95 +236,13 @@ namespace JuegoRol
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Caracteristicas:";
             // 
-            // label2
+            // lbl_armadura
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Tipo";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Nombre";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Apodo";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 102);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Fec. de nac.";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 129);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Edad";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 154);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Salud";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 27);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Velocidad";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 53);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Destreza";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 78);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(39, 13);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Fuerza";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 102);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Nivel";
+            this.lbl_armadura.AutoSize = true;
+            this.lbl_armadura.Location = new System.Drawing.Point(81, 128);
+            this.lbl_armadura.Name = "lbl_armadura";
+            this.lbl_armadura.Size = new System.Drawing.Size(0, 13);
+            this.lbl_armadura.TabIndex = 18;
             // 
             // label12
             // 
@@ -229,61 +253,14 @@ namespace JuegoRol
             this.label12.TabIndex = 15;
             this.label12.Text = "Armadura";
             // 
-            // lbl_tipo
+            // label11
             // 
-            this.lbl_tipo.AutoSize = true;
-            this.lbl_tipo.Location = new System.Drawing.Point(89, 27);
-            this.lbl_tipo.Name = "lbl_tipo";
-            this.lbl_tipo.Size = new System.Drawing.Size(0, 13);
-            this.lbl_tipo.TabIndex = 7;
-            // 
-            // lbl_nombre
-            // 
-            this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.Location = new System.Drawing.Point(89, 53);
-            this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(0, 13);
-            this.lbl_nombre.TabIndex = 8;
-            // 
-            // lbl_apodo
-            // 
-            this.lbl_apodo.AutoSize = true;
-            this.lbl_apodo.Location = new System.Drawing.Point(89, 78);
-            this.lbl_apodo.Name = "lbl_apodo";
-            this.lbl_apodo.Size = new System.Drawing.Size(0, 13);
-            this.lbl_apodo.TabIndex = 9;
-            // 
-            // lbl_fecnac
-            // 
-            this.lbl_fecnac.AutoSize = true;
-            this.lbl_fecnac.Location = new System.Drawing.Point(89, 102);
-            this.lbl_fecnac.Name = "lbl_fecnac";
-            this.lbl_fecnac.Size = new System.Drawing.Size(0, 13);
-            this.lbl_fecnac.TabIndex = 10;
-            // 
-            // lbl_edad
-            // 
-            this.lbl_edad.AutoSize = true;
-            this.lbl_edad.Location = new System.Drawing.Point(89, 129);
-            this.lbl_edad.Name = "lbl_edad";
-            this.lbl_edad.Size = new System.Drawing.Size(0, 13);
-            this.lbl_edad.TabIndex = 11;
-            // 
-            // lbl_salud
-            // 
-            this.lbl_salud.AutoSize = true;
-            this.lbl_salud.Location = new System.Drawing.Point(89, 154);
-            this.lbl_salud.Name = "lbl_salud";
-            this.lbl_salud.Size = new System.Drawing.Size(0, 13);
-            this.lbl_salud.TabIndex = 12;
-            // 
-            // lbl_armadura
-            // 
-            this.lbl_armadura.AutoSize = true;
-            this.lbl_armadura.Location = new System.Drawing.Point(81, 128);
-            this.lbl_armadura.Name = "lbl_armadura";
-            this.lbl_armadura.Size = new System.Drawing.Size(0, 13);
-            this.lbl_armadura.TabIndex = 18;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 102);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(31, 13);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Nivel";
             // 
             // lbl_nivel
             // 
@@ -293,6 +270,24 @@ namespace JuegoRol
             this.lbl_nivel.Size = new System.Drawing.Size(0, 13);
             this.lbl_nivel.TabIndex = 17;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 78);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(39, 13);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "Fuerza";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 53);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(49, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Destreza";
+            // 
             // lbl_fuerza
             // 
             this.lbl_fuerza.AutoSize = true;
@@ -301,13 +296,14 @@ namespace JuegoRol
             this.lbl_fuerza.Size = new System.Drawing.Size(0, 13);
             this.lbl_fuerza.TabIndex = 16;
             // 
-            // lbl_destreza
+            // label8
             // 
-            this.lbl_destreza.AutoSize = true;
-            this.lbl_destreza.Location = new System.Drawing.Point(81, 52);
-            this.lbl_destreza.Name = "lbl_destreza";
-            this.lbl_destreza.Size = new System.Drawing.Size(0, 13);
-            this.lbl_destreza.TabIndex = 15;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 27);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Velocidad";
             // 
             // lbl_velocidad
             // 
@@ -316,6 +312,14 @@ namespace JuegoRol
             this.lbl_velocidad.Name = "lbl_velocidad";
             this.lbl_velocidad.Size = new System.Drawing.Size(0, 13);
             this.lbl_velocidad.TabIndex = 14;
+            // 
+            // lbl_destreza
+            // 
+            this.lbl_destreza.AutoSize = true;
+            this.lbl_destreza.Location = new System.Drawing.Point(81, 52);
+            this.lbl_destreza.Name = "lbl_destreza";
+            this.lbl_destreza.Size = new System.Drawing.Size(0, 13);
+            this.lbl_destreza.TabIndex = 15;
             // 
             // btn_jugar
             // 
@@ -337,11 +341,43 @@ namespace JuegoRol
             this.label24.TabIndex = 6;
             this.label24.Text = "Detalles de los personajes";
             // 
+            // personaje_img
+            // 
+            this.personaje_img.ErrorImage = null;
+            this.personaje_img.InitialImage = null;
+            this.personaje_img.Location = new System.Drawing.Point(315, 34);
+            this.personaje_img.Name = "personaje_img";
+            this.personaje_img.Size = new System.Drawing.Size(188, 227);
+            this.personaje_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.personaje_img.TabIndex = 7;
+            this.personaje_img.TabStop = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(270, 283);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(37, 13);
+            this.label13.TabIndex = 8;
+            this.label13.Text = "Mapa:";
+            // 
+            // Lista_mapa
+            // 
+            this.Lista_mapa.FormattingEnabled = true;
+            this.Lista_mapa.Location = new System.Drawing.Point(313, 280);
+            this.Lista_mapa.Name = "Lista_mapa";
+            this.Lista_mapa.Size = new System.Drawing.Size(188, 21);
+            this.Lista_mapa.TabIndex = 9;
+            this.Lista_mapa.SelectedIndexChanged += new System.EventHandler(this.Lista_mapa_SelectedIndexChanged);
+            // 
             // ventanaPersonaje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 314);
+            this.ClientSize = new System.Drawing.Size(515, 314);
+            this.Controls.Add(this.Lista_mapa);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.personaje_img);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.btn_jugar);
             this.Controls.Add(this.groupBox2);
@@ -355,6 +391,7 @@ namespace JuegoRol
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.personaje_img)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,5 +428,8 @@ namespace JuegoRol
         private System.Windows.Forms.Label lbl_velocidad;
         private System.Windows.Forms.Button btn_jugar;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.PictureBox personaje_img;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox Lista_mapa;
     }
 }

@@ -14,10 +14,10 @@ namespace JuegoRol
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            List<string> namePersonajes = new List<string>();
-            Application.Run(new CrearPlayer(namePersonajes));
+            Application.Run(new CrearPlayer());
         }
     }
 }

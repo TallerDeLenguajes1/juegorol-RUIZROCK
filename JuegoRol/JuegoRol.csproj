@@ -110,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ventanaPersonaje.resx">
       <DependentUpon>ventanaPersonaje.cs</DependentUpon>
@@ -127,6 +128,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagenes\burro.png" />
+    <Content Include="imagenes\duende.png" />
+    <Content Include="imagenes\ehamigo.png" />
+    <Content Include="imagenes\nieri.png" />
+    <Content Include="imagenes\ogro.png" />
+    <None Include="Resources\ogro.png" />
+    <None Include="Resources\nieri.png" />
+    <None Include="Resources\ehamigo.png" />
+    <None Include="Resources\duende.png" />
+    <None Include="Resources\burro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

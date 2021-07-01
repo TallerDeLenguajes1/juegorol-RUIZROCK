@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace JuegoRol
@@ -20,8 +16,8 @@ namespace JuegoRol
 
         public IniciarPartida(List<Personajes> personaje)
         {
-            InitializeComponent();
             this.personajesPartida = personaje;
+            InitializeComponent();
         }
 
         private void inicializarVentana(List<Personajes> participantes)
@@ -45,8 +41,6 @@ namespace JuegoRol
                 Personajes personaje2 = personajesPartida.ElementAt(1);
                 inicializarPersonaje(personaje1, personaje2);
                 actualizarVentanaBatalla(personaje1, personaje2, numAtaque);
-
-
                 numAtaque++;
             }
             else
@@ -84,6 +78,9 @@ namespace JuegoRol
             FUERZAP1.Text = Convert.ToString(participante1.Fuerza);
             ARMADURAP1.Text = Convert.ToString(participante1.Armadura);
 
+            mostrarImagenIzq (participante1);
+
+
             NIVELP2.Text = Convert.ToString(participante2.Nivel);
             TIPOP2.Text = Convert.ToString(participante2.Personaje);
             APODOP2.Text = participante2.Apodo;
@@ -92,6 +89,7 @@ namespace JuegoRol
             FUERZAP2.Text = Convert.ToString(participante2.Fuerza);
             ARMADURAP2.Text = Convert.ToString(participante2.Armadura);
 
+            mostrarImagenDer(participante2);
         }
 
         private void btn_siguiente_partida_Click(object sender, EventArgs e)
@@ -179,6 +177,58 @@ namespace JuegoRol
             SALUDP2.Text = p2.Vida(danioP2).ToString();
 
             btn_iniciar_partida.Text = "Ataque" + (numAtaque + 1).ToString();
+        }
+
+        private void mostrarImagenIzq(Personajes personaje)
+        {
+            switch (personaje.Personaje)
+            {
+                case tipo.ogro:
+                    p1.Image = JuegoRol.Properties.Resources.ogro;
+                    break;
+
+                case tipo.duende:
+                    p1.Image = JuegoRol.Properties.Resources.duende;
+                    break;
+
+                case tipo.burro:
+                    p1.Image = JuegoRol.Properties.Resources.burro;
+                    break;
+
+                case tipo.nieri:
+                    p1.Image = JuegoRol.Properties.Resources.nieri;
+                    break;
+
+                case tipo.ehamigo:
+                    p1.Image = JuegoRol.Properties.Resources.ehamigo;
+                    break;
+            }
+        }
+
+        public void mostrarImagenDer(Personajes personaje)
+        {
+            switch (personaje.Personaje)
+            {
+                case tipo.ogro:
+                    p2.Image = JuegoRol.Properties.Resources.ogro;
+                    break;
+
+                case tipo.duende:
+                    p2.Image = JuegoRol.Properties.Resources.duende;
+                    break;
+
+                case tipo.burro:
+                    p2.Image = JuegoRol.Properties.Resources.burro;
+                    break;
+
+                case tipo.nieri:
+                    p2.Image = JuegoRol.Properties.Resources.nieri;
+                    break;
+
+                case tipo.ehamigo:
+                    p2.Image = JuegoRol.Properties.Resources.ehamigo;
+                    break;
+            }
         }
     }
 }
